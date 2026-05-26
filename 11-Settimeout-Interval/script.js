@@ -1,0 +1,9 @@
+
+let h1 = document.querySelector("h1");
+setTimeout(() => {
+    h1.style.color = "red";
+}, 1000);
+
+setInterval(()=> {
+    h1.style.backgroundColor = "black";
+},2000)
