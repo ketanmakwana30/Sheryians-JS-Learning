@@ -4,9 +4,6 @@
 //     console.log(i);
 // }
 
-
-
-
 // 2. While loop
 
 // let i = 10;
@@ -14,9 +11,6 @@
 //     console.log("Hello", i);
 //     i++;
 // }
-
-
-
 
 // 3. Do-While
 
@@ -26,19 +20,13 @@
 //     i--;
 // } while(i>40);
 
-
-
-
-// 4. for --> even 20 
+// 4. for --> even 20
 
 // for(let i=1; i<=20; i++){
 //     if(i % 2 === 0){
 //         console.log(i);
 //     }
 // }
-
-
-
 
 // 5. while --> odd 15
 
@@ -47,28 +35,22 @@
 //     if(i % 2 === 1){
 //         console.log(i);
 //     }
-//     i++;    
+//     i++;
 // }
 
-
- 
-// 6. 5 table 
+// 6. 5 table
 
 // for (let i=1; i<=10; i++){
 //     console.log(`5 X ${i} = ${i*5}`);
 // }
 
-
-
-// 7. 1 to 100 sum 
+// 7. 1 to 100 sum
 
 // sum = 0;
 // for( let i=1; i<=100; i++){
 //     sum = sum + i;
 // }
 // console.log(sum);
-
-
 
 // 8. Print 1 to 50 Divid by 3
 
@@ -78,9 +60,7 @@
 //     }
 // }
 
-
-
-// 9. take user no and odd - even 
+// 9. take user no and odd - even
 
 // let num = prompt("Enter a number");
 
@@ -88,11 +68,9 @@
 //     if( i % 2 === 0){
 //         console.log(`${i} is Even`);
 //     } else {
-//         console.log(`${i} is Odd`);   
+//         console.log(`${i} is Odd`);
 //     }
 // }
-
-
 
 // 10. How many num are dev in 1 to 100 by 3 and 5
 
@@ -102,10 +80,7 @@
 //     }
 // }
 
-
-
-
-// Use of Continue and Break 
+// Use of Continue and Break
 
 // 1. Stop when find 1st multiple by 7
 
@@ -116,8 +91,6 @@
 //     }
 // }
 
-
-
 // 2. Skip 3 multiple in 1 to 20
 
 // for (let i=1; i<=20; i++){
@@ -125,15 +98,13 @@
 //     console.log(i);
 // }
 
-
-
 // 3. first 5 odd num only
 
 let count = 0;
-for (let i=1; i<=100; i++){
-    if (i % 2 === 1){
-        count++;
-        console.log(i);
-    }
-    if (count === 5) break;
+for (let i = 1; i <= 100; i++) {
+  if (i % 2 === 1) {
+    count++;
+    console.log(i);
+  }
+  if (count === 5) break;
 }
